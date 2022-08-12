@@ -113,4 +113,6 @@ int main(void) {
     insertAfter(&head->next->next, 152);
     deleteNode(&head, 6);
     printList(head);
+    
+    //output 10 1 152 9
 }
